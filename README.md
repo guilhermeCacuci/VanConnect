@@ -1,4 +1,4 @@
-Sumário
+## Sumário
 
 1. Contexto (Problema, Objetivos, Público-alvo, Justificativa, Artefatos de Design Thinking)
 
@@ -8,7 +8,7 @@ Sumário
 
 4. Solução Implementada (funcionalidades de software) 
 
-Contexto
+## Contexto
 
 A crescente demanda por transporte seguro, confiável e acessível para estudantes e profissionais é um desafio constante. Muitos dependem de transportes públicos lotados ou opções caras como táxis e serviços de carona, o que pode comprometer a segurança e o conforto durante os deslocamentos diários.
 
@@ -20,9 +20,9 @@ A justificativa para implementação deste serviço é que, além de proporciona
 
 Os artefatos de design thinking incluem a criação de perfis detalhados de usuários finais (personas), mapeamento da experiência do usuário desde o acesso a um serviço até a conclusão da jornada (jornada do usuário), sessões colaborativas para a geração de ideias (brainstorming), desenvolvimento de protótipos funcionais para testar as soluções propostas com os usuários (Prototipagem) e a coleta e análise contínua de feedback dos usuários para refinar e melhorar o serviço (Feed back Loop).
 
-Projeto de Solução
+## Projeto de Solução
 
-Metodologia de Trabalho
+## Metodologia de Trabalho
 
 A metodologia que nós abordamos e usamos durante todo esse semestre foi a metodologia chamada Scrum, sendo um framework para fazer trabalho Agile.
 As verificações de garantia de qualidade são integradas ao framework Scrum, as equipes definem os requisitos no início de cada Sprint, também avaliam todo o ciclo de vida do software ou do produto enquanto estabelecem uma visão coletiva da conclusão.
@@ -42,6 +42,6 @@ Raphael Bustamante: Desenvolvedor
 
 Todos os integrantes do grupo ajudaram e desenvolveram o código, assim como foi passado pelo nosso Professor Wesley Dias Maciel, teríamos o Scrum Master e o PO com as suas funções, mas eles também ajudaram no desenvolvimento do projeto.
 
-Solução Implementada
+## Solução Implementada
 
-Cadastro/Atualização de dados dos Usuários: O Aluno na tela de cadastro possui os campos a serem preenchidos e nessa tela possui uma API chamada ViaCEP, onde ele colocava o seu CEP e preencha os campos de cidade, bairro e rua a partir dele, o mesmo era usado na tela de atualização. Na parte do proprietário ele preenche colocando seus dados, nome, sobrenome, nome de usuário…e informações da Van, placa, modelo e marca.
+# Cadastro/Atualização de dados dos Usuários: O Aluno na tela de cadastro possui os campos a serem preenchidos e nessa tela possui uma API chamada ViaCEP, onde ele colocava o seu CEP e preencha os campos de cidade, bairro e rua a partir dele, o mesmo era usado na tela de atualização. Na parte do proprietário ele preenche colocando seus dados, nome, sobrenome, nome de usuário…e informações da Van, placa, modelo e marca.
