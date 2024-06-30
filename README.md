@@ -44,4 +44,4 @@ Todos os integrantes do grupo ajudaram e desenvolveram o código, assim como foi
 
 ## Solução Implementada
 
-# Cadastro/Atualização de dados dos Usuários: O Aluno na tela de cadastro possui os campos a serem preenchidos e nessa tela possui uma API chamada ViaCEP, onde ele colocava o seu CEP e preencha os campos de cidade, bairro e rua a partir dele, o mesmo era usado na tela de atualização. Na parte do proprietário ele preenche colocando seus dados, nome, sobrenome, nome de usuário…e informações da Van, placa, modelo e marca.
+Cadastro/Atualização de dados dos Usuários: O Aluno na tela de cadastro possui os campos a serem preenchidos e nessa tela possui uma API chamada ViaCEP, onde ele colocava o seu CEP e preencha os campos de cidade, bairro e rua a partir dele, o mesmo era usado na tela de atualização. Na parte do proprietário ele preenche colocando seus dados, nome, sobrenome, nome de usuário…e informações da Van, placa, modelo e marca.
