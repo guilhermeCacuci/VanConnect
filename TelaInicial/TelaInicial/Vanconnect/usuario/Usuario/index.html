@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Código para a utilização do BootStrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+            <div class="container">
+                <a class="navbar-brand" href="/TelaInicial/Vanconnect/inicial/semlogin.html">
+                    <i class="fas fa-bus"></i> VanConnect
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="proprietarioForm">
+            <h2>Cadastro de Usuário</h2>
+            <div class="progress mb-3">
+                <div class="progress-bar" role="progressbar" style="width: 0%;" id="progressBar"></div>
+            </div>
+            <form class="row g-3" id="formCadastroProprietario">
+                <div class="col-md-4">
+                    <label for="validationDefault01" class="form-label">Nome <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control" id="nome" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="validationDefault02" class="form-label">Sobrenome <span
+                            class="text-danger">*</span></label>
+                    <input type="text" class="form-control" id="sobrenome" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="validationDefaultUsername" class="form-label">Nome de Usuário <span
+                            class="text-danger">*</span></label>
+                    <div class="input-group">
+                        <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                        <input type="text" class="form-control" id="username" aria-describedby="inputGroupPrepend2"
+                            required>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <label for="validationDefaultEmail" class="form-label">Email <span
+                            class="text-danger">*</span></label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="validationConfirmEmail" class="form-label">Confirmar Email <span
+                            class="text-danger">*</span></label>
+                    <input type="email" class="form-control" id="confirmEmail" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="validationDefaultPassword" class="form-label">Senha <span
+                            class="text-danger">*</span></label>
+                    <div class="input-group">
+                        <input type="password" class="form-control" id="password" required>
+                        <button class="btn btn-outline-secondary" type="button" id="togglePassword"
+                            style="height: 38px;">
+                            Mostrar Senha
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <label for="validationConfirmPassword" class="form-label">Confirmar Senha <span
+                            class="text-danger">*</span></label>
+                    <div class="input-group">
+                        <input type="password" class="form-control" id="confirmPassword" required>
+                        <button class="btn btn-outline-secondary" type="button" id="toggleConfirmPassword"
+                            style="height: 38px;">
+                            Mostrar Senha
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <label for="validationDefault05" class="form-label">CEP <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control" id="cep" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="validationDefault03" class="form-label">Cidade <span
+                            class="text-danger">*</span></label>
+                    <input type="text" class="form-control" id="cidade" required readonly>
+                </div>
+                <div class="col-md-6">
+                    <label for="validationDefault09" class="form-label">Bairro <span
+                            class="text-danger">*</span></label>
+                    <input type="text" class="form-control" id="bairro" required readonly>
+                </div>
+                <div class="col-md-6">
+                    <label for="validationDefault06" class="form-label">Rua <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control" id="rua" required readonly>
+                </div>
+                <div class="col-md-6">
+                    <label for="validationDefault07" class="form-label">Número <span
+                            class="text-danger">*</span></label>
+                    <input type="text" class="form-control" id="numero" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="validationDefault08" class="form-label">Complemento</label>
+                    <input type="text" class="form-control" id="complemento">
+                </div>
+                <div class="col-12">
+                    <button class="btn btn-primary" type="submit">Cadastrar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Van Connect. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const form = document.getElementById('formCadastroProprietario');
+            const fields = form.querySelectorAll('input[required], select[required], textarea[required]');
+            const progressBar = document.getElementById('progressBar');
+            const togglePassword = document.querySelector('#togglePassword');
+            const password = document.querySelector('#password');
+            const toggleConfirmPassword = document.querySelector('#toggleConfirmPassword');
+            const confirmPassword = document.getElementById('confirmPassword');
+
+            const email = document.getElementById('email');
+            const confirmEmail = document.getElementById('confirmEmail');
+            const cepField = document.getElementById('cep');
+            const cidadeField = document.getElementById('cidade');
+            const bairroField = document.getElementById('bairro');
+            const ruaField = document.getElementById('rua');
+
+            togglePassword.addEventListener('click', function (e) {
+                const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+                password.setAttribute('type', type);
+                this.textContent = type === 'password' ? 'Mostrar Senha' : 'Ocultar Senha';
+            });
+
+            toggleConfirmPassword.addEventListener('click', function (e) {
+                const type = confirmPassword.getAttribute('type') === 'password' ? 'text' : 'password';
+                confirmPassword.setAttribute('type', type);
+                this.textContent = type === 'password' ? 'Mostrar Senha' : 'Ocultar Senha';
+            });
+
+            fields.forEach(field => {
+                field.addEventListener('input', updateProgress);
+            });
+
+            cepField.addEventListener('input', () => {
+                const cep = cepField.value.replace(/\D/g, '');
+                if (cep.length === 8) {
+                    fetch(`https://viacep.com.br/ws/${cep}/json/`)
+                        .then(response => response.json())
+                        .then(data => {
+                            if (!data.erro) {
+                                cidadeField.value = data.localidade;
+                                bairroField.value = data.bairro;
+                                ruaField.value = data.logradouro;
+                            } else {
+                                cidadeField.value = '';
+                                bairroField.value = '';
+                                ruaField.value = '';
+                            }
+                            updateProgress();
+                        });
+                } else {
+                    cidadeField.value = '';
+                    bairroField.value = '';
+                    ruaField.value = '';
+                }
+            });
+
+            form.addEventListener('submit', function (event) {
+                event.preventDefault(); // Impede o envio padrão do formulário
+                if (email.value !== confirmEmail.value) {
+                    alert("Os emails não coincidem!");
+                    return;
+                }
+                if (password.value !== confirmPassword.value) {
+                    alert("As senhas não coincidem!");
+                    return;
+                }
+
+                // Captura os dados do formulário
+                const formData = {
+                    nome: document.getElementById('nome').value,
+                    sobrenome: document.getElementById('sobrenome').value,
+                    username: document.getElementById('username').value,
+                    email: email.value,
+                    password: password.value,
+                    cep: cepField.value,
+                    cidade: cidadeField.value,
+                    bairro: bairroField.value,
+                    rua: ruaField.value,
+                    numero: document.getElementById('numero').value,
+                    complemento: document.getElementById('complemento').value,
+                };
+
+                // Envia os dados para o JSON Server
+                fetch('https://567e7c88-b106-4865-ab9e-5057b7b5480b-00-dm76cyfs1da4.riker.replit.dev/autenticacao', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(formData)
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        alert('Usuário cadastrado com sucesso!');
+                        form.reset();
+                        progressBar.style.width = '0%';
+                    })
+                    .catch(error => {
+                        console.error('Erro ao cadastrar usuário:', error);
+                        alert('Ocorreu um erro ao cadastrar o usuário. Tente novamente.');
+                    });
+            });
+
+            function updateProgress() {
+                const filledFields = Array.from(fields).filter(field => field.value.trim() !== '');
+                const progress = (filledFields.length / fields.length) * 100;
+                progressBar.style.width = `${progress}%`;
+                progressBar.setAttribute('aria-valuenow', progress);
+            }
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+html,body{
+  height: 100%;
+}
+
+body,
+ul,
+li,
+p {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 1.2rem;
+  font-family: Arial;
+}
+
+/*body{
+  background-image: url(./img/lindo-cachorro-levantando-a-cabeca.jpg);
+  background-repeat: no-repeat;
+}*/
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  font-size: 120%;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.header {
+  background: #ffc107;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.footer {
+  background: #ffc107;
+  color: white;
+  font-size: 0.8em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-top: 50px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+}
+
+ /*CSS GRID 1 */
+
+.grid1 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  max-width: 800px;
+  padding: 10px;
+  margin: 0 auto;
+  grid-gap: 20px;
+}
+
+div a{
+  color: black;
+  font-size: 0.7em;  
+}
+
+@media (max-width: 600px) {
+  .grid1 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid1 > div:nth-child(n + 4) {
+    display: block;
+  }
+  .grid1 > div.anuncio {
+    grid-column: auto;
+    grid-row: auto;
+    order: -1;
+  }
+}
+
+.avatar {
+  cursor: pointer;
+}
+.navbar-custom {
+  background-color: #ffc107;
+}
+.navbar-dark .navbar-brand {
+  color: #000000;
+}
+.navbar-dark .navbar-brand i {
+  margin-right: 10px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #000000;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+.navbar-dark .navbar-nav .nav-link i {
+  color: #000000;
+}
+
+.footer {
+  background-color: #343a40; /* Cor de fundo cinza escuro */
+  color: #ffffff; /* Cor do texto branco */
+  padding: 10px; /* Espaçamento interno */
+  text-align: center; /* Alinhamento centralizado do texto */
+  margin-top: 20px; /* Adiciona um espaçamento no topo */
+  margin-bottom: 0; /* Remove o espaçamento abaixo do rodapé */
+}

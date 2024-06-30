@@ -1,0 +1,83 @@
+/* Estilo para o botão */
+.btn-submit {
+    margin-bottom: 20px;
+    /* Espaço entre o botão e o rodapé */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: yellow;
+    /* Fundo amarelo */
+    color: #000000;
+    /* Cor do texto preto */
+    padding: 10px 0;
+    /* Espaçamento interno */
+    text-align: center;
+    /* Alinhamento centralizado do texto */
+}
+
+.header a {
+    color: #fff;
+    /* Cor do texto do link branco */
+    text-decoration: none;
+    /* Sem sublinhado no link */
+}
+
+.header a:hover {
+    text-decoration: underline;
+    /* Sublinhar o link ao passar o mouse */
+}
+
+.footer {
+    background-color: #343a40;
+    /* Cor de fundo cinza escuro */
+    color: #ffffff;
+    /* Cor do texto branco */
+    padding: 10px;
+    /* Espaçamento interno */
+    text-align: center;
+    /* Alinhamento centralizado do texto */
+    margin-top: 20px;
+    /* Adiciona um espaçamento no topo */
+    margin-bottom: 0;
+    /* Remove o espaçamento abaixo do rodapé */
+}
+
+#proprietarioVanForm {
+    margin-top: 20px;
+    /* Adiciona espaço entre o cabeçalho e a seção */
+    margin-bottom: 20px;
+    /* Adiciona espaço abaixo do formulário */
+}
+
+.avatar {
+    cursor: pointer;
+}
+
+.navbar-custom {
+    background-color: #ffc107;
+}
+
+.navbar-dark .navbar-brand {
+    color: #000000;
+}
+
+.navbar-dark .navbar-brand i {
+    margin-right: 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #000000;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link i {
+    color: #000000;
+}

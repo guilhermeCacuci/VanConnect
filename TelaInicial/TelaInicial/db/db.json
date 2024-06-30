@@ -1,0 +1,72 @@
+{
+    "users": [],
+    "avaliacoes": [
+        {
+            "id": 1,
+            "nome": "Ana Clara",
+            "descricao": "Estudante de Engenharia",
+            "avaliacaoEstrelas": 5,
+            "comentario": "A VAN Connect é a minha salvação! O transporte público era muito lotado e desconfortável, e o Uber era sempre caro. Com a VAN Connect, eu posso contar com um transporte seguro, confiável e acessível para ir e voltar da faculdade. Os motoristas são sempre pontuais, simpáticos e as vans são muito confortáveis. Recomendo muito a VAN Connect para todos os estudantes! A plataforma é fácil de usar e o app funciona perfeitamente. Além disso, o preço é justo e o atendimento ao cliente é excelente.",
+            "imagem": "ana-clara.jpg"
+        },
+        {
+            "id": 2,
+            "nome": "João Pedro",
+            "descricao": "Estudante de Direito",
+            "avaliacaoEstrelas": 4,
+            "comentario": "Eu uso a VAN Connect para ir para meus cursos extracurriculares e estágios. É muito mais barato e conveniente do que pegar o táxi ou Uber. Além disso, os motoristas são sempre muito simpáticos e prestativos. Recomendo a VAN Connect para todos os estudantes que precisam de um transporte confiável e acessível.",
+            "imagem": "joao-pedro.jpg"
+        },
+        {
+            "id": 3,
+            "nome": "Maria Eduarda",
+            "descricao": "Estudante do Ensino Médio",
+            "avaliacaoEstrelas": 4.5,
+            "comentario": "Eu moro longe da escola e a VAN Connect me ajuda a chegar lá na hora. Os motoristas são sempre pontuais e as vans são muito confortáveis. Eu recomendo a VAN Connect para todos os estudantes!",
+            "imagem": "maria-eduarda.jpg"
+        },
+        {
+            "id": 4,
+            "nome": "Carlos",
+            "descricao": "Motorista de Van",
+            "avaliacaoEstrelas": 4.5,
+            "comentario": "Eu adoro trabalhar com a VAN Connect! Os estudantes são sempre simpáticos e respeitosos, e a equipe de suporte é muito atenciosa. A plataforma é fácil de usar e me permite organizar minhas rotas de forma eficiente. Recomendo a VAN Connect a todos os motoristas que desejam uma experiência de trabalho gratificante!",
+            "imagem": "usuarios/carlos.png"
+        }
+    ],
+    "comentarios": [
+        {
+            "id": 1,
+            "nome": "Ana Clara",
+            "tipoUsuario": "estudante",
+            "comentario": "A VAN Connect é a minha salvação! O transporte público era muito lotado e desconfortável, e o Uber era sempre caro. Com a VAN Connect, eu posso contar com um transporte seguro, confiável e acessível para ir e voltar da faculdade. Os motoristas são sempre pontuais, simpáticos e as vans são muito confortáveis. Recomendo muito a VAN Connect para todos os estudantes! A plataforma é fácil de usar e o app funciona perfeitamente. Além disso, o preço é justo e o atendimento ao cliente é excelente."
+        },
+        {
+            "id": 2,
+            "nome": "João Pedro",
+            "tipoUsuario": "estudante",
+            "comentario": "Eu uso a VAN Connect para ir para meus cursos extracurriculares e estágios. É muito mais barato e conveniente do que pegar o táxi ou Uber. Além disso, os motoristas são sempre muito simpáticos e prestativos. Recomendo a VAN Connect para todos os estudantes que precisam de um transporte confiável e acessível."
+        },
+        {
+            "id": 3,
+            "nome": "Maria Eduarda",
+            "tipoUsuario": "estudante",
+            "comentario": "Eu moro longe da escola e a VAN Connect me ajuda a chegar lá na hora. Os motoristas são sempre pontuais e as vans são muito confortáveis. Eu recomendo a VAN Connect para todos os estudantes!"
+        },
+        {
+            "id": 4,
+            "nome": "Carlos",
+            "tipoUsuario": "motorista",
+            "comentario": "Eu adoro trabalhar com a VAN Connect! Os estudantes são sempre simpáticos e respeitosos, e a equipe de suporte é muito atenciosa. A plataforma é fácil de usar e me permite organizar minhas rotas de forma eficiente. Recomendo a VAN Connect a todos os motoristas que desejam uma experiência de trabalho gratificante!"
+        }
+    ],
+    "supportRequests": [
+        {
+          "id": "67dc",
+          "name": "Teste",
+          "email": "kaiocvidigal@gmail.com",
+          "issue": "Teste 1",
+          "image": "https://static.wikia.nocookie.net/leagueoflegends/images/c/c7/Corki_Render.png/revision/latest?cb=20190111233138"
+        }
+      ]
+}

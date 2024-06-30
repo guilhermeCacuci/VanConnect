@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="app.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
+   -->
+  <title>Login</title>
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+      <div class="container">
+        <a class="navbar-brand" href="/TelaInicial/Vanconnect/inicial/semlogin.html">
+          <i class="fas fa-bus"></i> VanConnect
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <h1>Login</h1>
+
+  <section class="grid1">
+
+    <div class="mb-3">
+      <label for="campoEmail" class="form-label">Email</label>
+      <input type="email" class="form-control" id="campoEmail">
+    </div>
+
+    <div class="mb-3">
+      <label for="campoSenha" class="form-label">Senha</label>
+      <input type="password" class="form-control" id="campoSenha"> <!--  placeholder="Digite a senha" -->
+    </div>
+
+    <div class="mb-3">
+      <button type="submit" onclick="validaAcesso()" class="btn btn-primary" id="btn-entrar">Entrar</button>
+    </div>
+
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Van Connect. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>

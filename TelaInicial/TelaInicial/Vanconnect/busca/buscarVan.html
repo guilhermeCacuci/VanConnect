@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="app.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
+   -->
+
+
+  <title>Buscar Van</title>
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+      <div class="container">
+        <a class="navbar-brand" href="/TelaInicial/Vanconnect/inicial/paginainicial.html">
+          <i class="fas fa-bus"></i> VanConnect
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/TelaInicial/Vanconnect/comentario/Comentario/index.html"><i
+                  class="fas fa-star"></i> Avaliações e
+                Comentários</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"
+                href="https://1806a5a2-b62d-49ae-978c-cb770241d29c-00-2zfrl8s3hni3.kirk.replit.dev/"><i
+                  class="fas fa-comments"></i> Salas de Conversa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/TelaInicial/Vanconnect/suporte/Suporte/suporte/index.html"><i
+                  class="fas fa-life-ring"></i> Sistema de Suporte</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/TelaInicial/Vanconnect/busca/buscarVan.html"><i class="fas fa-bus"></i>
+                Consulta de Transporte</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link avatar" data-toggle="modal" data-target="#userInfoModal">
+                <i class="fas fa-user-circle fa-lg"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <h1>Buscar Van</h1>
+
+  <section class="grid1">
+    <form>
+
+
+      <div class="mb-3">
+        <label class="form-label">Origem</label>
+        <input type="text" class="form-control" id="campoLogradouro" minlength="5" placeholder="Digite o logradouro"
+          required="">
+        <input type="text" class="form-control" id="campoBairro" minlength="10" placeholder="Digite o bairro"
+          required="">
+        <input type="text" class="form-control" id="campoCidade" minlength="10" placeholder="Digite a cidade"
+          required="">
+        <input type="text" class="form-control" id="campoEstado" minlength="10" placeholder="Digite o estado"
+          required="">
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Destino</label>
+        <select class="form-select" id="inlineFormSelectDest" aria-label="Default select example">
+          <option selected>Selecione...</option>
+          <option value="1"></option>
+          <option value="2"></option>
+          <option value="3"></option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label">Turno</label>
+        <select class="form-select" id="inlineFormSelectPref">
+          <option selected>Selecione...</option>
+          <option value="1">Manhã</option>
+          <option value="2">Tarde</option>
+          <option value="3">Noite</option>
+        </select>
+      </div>
+      <form>
+        <div class="mb-3">
+          <button type="submit" onclick="buscar()" class="btn btn-primary" id="btn-buscar">Buscar</button>
+        </div>
+
+  </section>
+
+  <footer class="footer">
+    2024 VAN Connect. Todos os direitos reservados
+  </footer>
+
+  <script>
+    var clickButton = document.querySelector("#inlineFormSelectDest");
+
+    clickButton.addEventListener('click', buscaInstituicao);
+
+    function buscaInstituicao() {
+      var c = document.getElementById("inlineFormSelectDest");
+
+
+      fetch('https://my-json-server.typicode.com/brunacpereira/van-connect/instituicao')
+        .then(response => response.json())
+        .then(data => {
+
+          var tam = data.length;
+
+          for (i = 0; i < c.options.length, tam > 0; i++) {
+            c.options[i].innerHTML = data[i].nome;
+            tam--;
+          }
+        })
+        .catch(error => console.error('Erro:', error));
+    }
+  </script>
+</body>
+
+</html>
