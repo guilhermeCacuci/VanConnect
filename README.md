@@ -22,6 +22,30 @@ Os artefatos de design thinking incluem a criação de perfis detalhados de usu�
 
 ## Projeto de Solução
 
+**Requisitos do projeto**
+
+**Cadastro de Motoristas e Usuários:** A plataforma deve permitir que motoristas e
+usuários se cadastrem fornecendo informações pessoais como nome, e-mail e
+senha. O modelo, capacidade de passageiros e documentação relevante devem ser
+fornecidos pelos motoristas. Após se registrar, os usuários devem poder acessar a
+plataforma por meio de um sistema de login seguro.
+
+**Pesquisa e Reserva de Viagens:** A plataforma deve ter uma interface de pesquisa
+fácil de entender que permita aos usuários encontrar viagens disponíveis com base
+em sua localização, destino, data e horário desejados. Os usuários devem poder
+visualizar detalhes completos das viagens, incluindo horários, rotas, custos e
+informações do motorista. Os usuários devem poder selecionar uma viagem
+específica e concluir a reserva através da plataforma, fornecendo detalhes de
+pagamento seguros.
+
+**Avaliação e Comentários de Viagens:** Após a conclusão de uma viagem, os passageiros devem receber uma solicitação para avaliar a experiência e deixar um comentário sobre o serviço que o motorista forneceu. Os usuários devem poder colocar uma classificação de estrelas e deixar
+comentários opcionais sobre a viagem e o serviço do motorista. Para que outros usuários possam usar, os comentários e avaliações dos usuários devem ser publicados na plataforma.
+
+**Login e Atualização de Cadastro para Motoristas:** Os motoristas devem ter a capacidade de fazer login em suas contas usando seus dados de acesso registrados. Os motoristas devem ter a capacidade de atualizar suas informações de perfil, incluindo os detalhes da van e qualquer documentação adicional necessária, caso necessário.
+
+**Páginas Informativas:** Para fornecer informações sobre a empresa, a plataforma deve ter páginas como"Quem Somos" e "Página de Suporte/Dúvidas". As páginas informativas devem ser facilmente acessíveis aos usuários a partir da página inicial da plataforma.
+
+
 ## Metodologia de Trabalho
 
 A metodologia que nós abordamos e usamos durante todo esse semestre foi a metodologia chamada **Scrum**, sendo um framework para fazer trabalho Agile.
