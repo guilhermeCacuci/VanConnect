@@ -24,34 +24,34 @@ Os artefatos de design thinking incluem a criação de perfis detalhados de usu�
 
 ## Metodologia de Trabalho
 
-A metodologia que nós abordamos e usamos durante todo esse semestre foi a metodologia chamada Scrum, sendo um framework para fazer trabalho Agile.
+A metodologia que nós abordamos e usamos durante todo esse semestre foi a metodologia chamada **Scrum**, sendo um framework para fazer trabalho Agile.
 As verificações de garantia de qualidade são integradas ao framework Scrum, as equipes definem os requisitos no início de cada Sprint, também avaliam todo o ciclo de vida do software ou do produto enquanto estabelecem uma visão coletiva da conclusão.
 Toda equipe prioriza os requisitos com base no valor do cliente e na análise de riscos, os membros têm a flexibilidade de organizar o trabalho de acordo com seu estilo de trabalho, personalidade e objetivos pessoais. 
 Como resultado, o Scrum cria um ambiente de apoio e confiança, aumentando a motivação e a moral das pessoas como um todo.
 As equipes Scrum escolhem suas próprias métricas para medir a performance do projeto. As equipes obtêm mais suporte no início do projeto e aceleram naturalmente com o passar do tempo.
 
-Guilherme Ladislau: Scrum Master
+**Guilherme Ladislau:** Scrum Master
 
-Gustavo Horta: Product Owner
+**Gustavo Horta:** Product Owner
 
-Bruna Pereira: Desenvolvedora
+**Bruna Pereira:** Desenvolvedora
 
-Kaio Vidigal: Desenvolvedor
+**Kaio Vidigal:** Desenvolvedor
 
-Raphael Bustamante: Desenvolvedor
+**Raphael Bustamante:** Desenvolvedor
 
 Todos os integrantes do grupo ajudaram e desenvolveram o código, assim como foi passado pelo nosso Professor Wesley Dias Maciel, teríamos o Scrum Master e o PO com as suas funções, mas eles também ajudaram no desenvolvimento do projeto.
 
 ## Solução Implementada
 
-Cadastro/Atualização de dados dos Usuários: O Aluno na tela de cadastro possui os campos a serem preenchidos e nessa tela possui uma API chamada ViaCEP, onde ele colocava o seu CEP e preencha os campos de cidade, bairro e rua a partir dele, o mesmo era usado na tela de atualização. Na parte do proprietário ele preenche colocando seus dados, nome, sobrenome, nome de usuário…e informações da Van, placa, modelo e marca.
+**Cadastro/Atualização de dados dos Usuários:** O Aluno na tela de cadastro possui os campos a serem preenchidos e nessa tela possui uma API chamada ViaCEP, onde ele colocava o seu CEP e preencha os campos de cidade, bairro e rua a partir dele, o mesmo era usado na tela de atualização. Na parte do proprietário ele preenche colocando seus dados, nome, sobrenome, nome de usuário…e informações da Van, placa, modelo e marca.
 
-Chat: Eu, Gustavo Horta, desenvolvi uma tela de chat para a empresa VanConnect, utilizando a tecnologia socket.io, com o objetivo de facilitar a comunicação em tempo real entre os usuários. Criei uma interface intuitiva e responsiva, com um layout limpo que destaca o campo de entrada de mensagem e a navegação entre várias salas de conversa. As mensagens são exibidas de forma clara, com o nome de quem enviou destacado, proporcionando uma experiência de uso fluida e eficiente. A integração com socket.io garante uma troca de mensagens rápida e sem interrupções, essencial para a coordenação eficaz dos serviços de vans na região.
+**Chat:** Eu, Gustavo Horta, desenvolvi uma tela de chat para a empresa VanConnect, utilizando a tecnologia socket.io, com o objetivo de facilitar a comunicação em tempo real entre os usuários. Criei uma interface intuitiva e responsiva, com um layout limpo que destaca o campo de entrada de mensagem e a navegação entre várias salas de conversa. As mensagens são exibidas de forma clara, com o nome de quem enviou destacado, proporcionando uma experiência de uso fluida e eficiente. A integração com socket.io garante uma troca de mensagens rápida e sem interrupções, essencial para a coordenação eficaz dos serviços de vans na região.
 Para que a tela de chat seja diretamente conectada ao site, é necessário atualizar os cabeçalhos assim que um novo link do Replit estiver disponível, tendo em vista que o servidor da ferramenta cai de tempos em tempos, gerando a necessidade de criar um novo.
 
-Avaliação e  Comentários: Eu, Raphael Caracci, fiquei responsável pela parte de “avaliações e comentários” do projeto, que envolve a criação de uma plataforma para estudantes e motoristas compartilharem suas experiências e feedback sobre os serviços de transporte. A página contém depoimentos detalhados de usuários satisfeitos com estrelas, bem como um formulário para novos usuários adicionarem suas próprias avaliações. Esta secção não só aumenta a transparência e a confiança no serviço, mas também fornece informações valiosas para a melhoria contínua do transporte prestado.
+**Avaliação e  Comentários:** Eu, Raphael Caracci, fiquei responsável pela parte de “avaliações e comentários” do projeto, que envolve a criação de uma plataforma para estudantes e motoristas compartilharem suas experiências e feedback sobre os serviços de transporte. A página contém depoimentos detalhados de usuários satisfeitos com estrelas, bem como um formulário para novos usuários adicionarem suas próprias avaliações. Esta secção não só aumenta a transparência e a confiança no serviço, mas também fornece informações valiosas para a melhoria contínua do transporte prestado.
 
-Página de suporte: é uma plataforma dedicada para ajudar os usuários a resolverem seus problemas e esclarecerem suas dúvidas sobre o site. Nesta página, os usuários têm a oportunidade de enviar suas consultas preenchendo um formulário com os seguintes campos:
+**Página de suporte:** é uma plataforma dedicada para ajudar os usuários a resolverem seus problemas e esclarecerem suas dúvidas sobre o site. Nesta página, os usuários têm a oportunidade de enviar suas consultas preenchendo um formulário com os seguintes campos:
 Nome: O usuário insere seu nome para que a equipe de suporte possa identificá-lo.
 Email: O usuário fornece um endereço de email para receber respostas e atualizações sobre sua consulta.
 Descrição do Problema/Dúvida: O usuário descreve detalhadamente a questão ou problema que está enfrentando.
